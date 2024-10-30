@@ -10,8 +10,9 @@
     <script src="https://kit.fontawesome.com/8e3d288494.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="px-4 bg-gray-50">
-    <header class="md:px-8 lg:px-32">
+<body class=" bg-gray-50">
+    <header class="md:px-8 lg:px-32 px-4">
+        <!-- =========== Navbar Starts Here =========== -->
         <div class="flex justify-between items-center py-4">
             <div class="flex items-center justify-center gap-1">
                 <div class="bg-lime-300 rounded-full h-6 w-6 text-center flex items-center justify-center mt-1"><span
@@ -67,14 +68,19 @@
                 </div>
             </div>
         </div>
+        <!-- =========== Navbar Ends Here =========== -->
+
+        <!-- ============ Banner Section Starts Here ========== -->
         <div>
             <div class="container mx-auto px-4">
                 <div class="text-center flex flex-col justify-center items-center gap-4 md:gap-8 mx-auto">
                     <div>
                         <img src="assets/banner.png" alt="Barn House Image" class="w-full h-54 md:h-96 object-cover">
                     </div>
-                    <div class="w-full md:1/2 lg:w-9/12 flex flex-col justify-center items-center gap-4 md:gap-8 mx-auto">
-                        <h1 class="text-3xl md:text-6xl font-bold lg:font-extrabold">A barn house of this design has a striking
+                    <div
+                        class="w-full md:1/2 flex flex-col justify-center items-center gap-4 md:gap-8 mx-auto">
+                        <h1 class="text-3xl md:text-6xl font-bold lg:font-extrabold">A barn house of this design has a
+                            striking
                             appearance</h1>
                         <p class="md:font-medium text-base">The barn house captivates with its blend of rustic charm and
                             modern sophistication, featuring weathered wood, sleek metal accents, and large windows that
@@ -91,10 +97,46 @@
                 </div>
             </div>
         </div>
+        <!-- ============ Banner Section Ends Here ========== -->
     </header>
     <main>
 
         <!-- ==== About section starts here ==== -->
+        <section class="bg-gray-100 p-4 py-8 md:py-10 mt-24 lg:px-12">
+            <img class="hidden lg:block mb-3" src="assets/Vector.png" alt="">
+            <div class="lg:flex md:gap-12 md:px-8 lg:px-20 space-y-4 md:space-y-8 lg:space-y-0">
+                <!-- ====== About Contents ==== -->
+                <div class="lg:w-1/2 space-y-7">
+                    <div class="space-y-6 md:text-center lg:text-start">
+                        <button
+                        class=" btn bg-white text-black border-none hover:bg-lime-100 rounded-full hover:text-lime-900 transition-all duration-500 cursor-pointer">
+                        <span class=""><i class="fa-solid fa-arrow-right"></i></span> About Us
+                    </button>
+                    <h1 class="text-4xl font-bold lg:w-3/4">We design thoughtful, liveable spaces</h1>
+                    <p class="font-semibold">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+                    <div class="gap-5 flex flex-col md:flex-row lg:flex-col md:gap-5 md:items-center justify-center">
+                        <div class="bg-white p-4 rounded-md flex lg:items-center gap-2 md:gap-4 h-28">
+                            <div><img src="assets/commercial.png" alt=""></div>
+                            <div class="space-y-1">
+                                <h2 class="text-xl font-semibold">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-md flex lg:items-center gap-2 md:gap-4 h-28">
+                            <div><img src="assets/residential.png" alt=""></div>
+                            <div class="space-y-1">
+                                <h2 class="text-xl font-semibold">Residential</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ===== About img ===== -->
+                <div class="lg:w-1/2 w-full"><img src="assets/Rectangle.png" alt=""></div>
+            </div>
+        </section>
         <!-- ==== About section ends here ==== -->
 
         <!-- ==== How we works section starts here ==== -->
